@@ -19,10 +19,15 @@ public class Queue {
 	 */
 	int size;
 	
-	/**
+	public Queue(){
+		front = null, rear = null;
+		size = 0; 
+	}
+	/*
 	 * Adds the Node to the end of the Queue
 	 * @param Node
 	 */
+	 
 	public void enqueue(Node target){
 		if(size == 0){
 			front = target;
