@@ -61,7 +61,7 @@ public class Queue {
 	 * 
 	 * @return Last 
 	 */
-	public Node getRear(){
+	public Node getLast(){
 		return rear;
 	}
 	
